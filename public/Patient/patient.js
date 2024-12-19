@@ -986,15 +986,15 @@ document.addEventListener('DOMContentLoaded', function() {
     * These listeners navigate the user to different report pages when the corresponding buttons are clicked.
     */
     document.getElementById("referralButton").addEventListener("click", function() {
-        window.location.href = "public/Reports/refer.html";
+        window.location.href = "../Reports/refer.html";
     });
     
     document.getElementById("rxButton").addEventListener("click", function() {
-        window.location.href = "public/Reports/Rx.html";
+        window.location.href = "../Reports/Rx.html";
     });
     
     document.getElementById("proofOfEyeTestBtn").addEventListener("click", function() {
-        window.location.href = "public/Reports/proof.html";
+        window.location.href = "../Reports/proof.html";
     });
     
 
@@ -1451,7 +1451,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (continueToEyeTestBtn) {
         continueToEyeTestBtn.addEventListener('click', function() {
             // Navigate to VA Charts page
-            window.location.href = "public/VA Charts/VA CHARTS.html";
+            window.location.href = "../VA Charts/VA CHARTS.html";
         });
     }    
     
